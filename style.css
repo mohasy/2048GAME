@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: #faf8ef;
+    margin-left: 100px;
+}
+h1{
+    color: #8d837a;
+    font-size: 90px;
+}
+.scoreBoard{
+    position: absolute;
+    width: 60px;
+    padding: 5px 7px;
+    top: 60px;
+    left: 370px;
+    background: #bbada0;
+    color: #eee;
+    text-align: center;
+    border-radius: 4px;
+}
+.best{
+    width: 100px;
+    left: 453px;
+}
+.scoreBoard h4{
+    margin: 0px;
+    color: rgb(238, 228, 218);
+    font-size: 13px;
+}
+.scoreBoard span {
+    font: bold 25px "arial";
+}
+#newGame{
+    position: absolute;
+    width: 140px;
+    padding: 10px 0px;
+    top: 160px;
+    left: 427px;
+    background: #8d837a;
+    color: #eee;
+    text-align: center;
+    border-radius: 4px;
+    font: bold 17px "arial";
+    cursor: pointer;
+}
+#board{
+    background: #bbada0;
+    border-radius: 4px;
+    border-spacing: 0.8rem;
+}
+td{
+    height: 100px;
+    width: 100px;
+    background: rgba(238, 228, 218, 0.35);
+    border-radius: 4px;
+    text-align: center;
+}
